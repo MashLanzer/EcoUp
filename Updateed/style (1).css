@@ -1,0 +1,12 @@
+/* ============================================= */
+/*              REGLA DE DEPURACIÓN              */
+/* ============================================= */
+/*
+  Esta regla aplica un borde rojo a TODOS los elementos
+  de la página. Es muy útil para ver los límites de cada
+  caja y depurar problemas de layout.
+*/
+* {
+    border: 1px solid red !important;
+}
+
