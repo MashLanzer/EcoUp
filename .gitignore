@@ -1,0 +1,12 @@
+# Ignorar dependencias de Node.js
+node_modules
+
+# Ignorar carpeta de versiones personales
+Versiones/
+
+# Ignorar archivos de log y de sistema
+*.log
+.DS_Store
+
+# ¡IMPORTANTE! NO ignores firebase.json ni .firebaserc
+# porque GitHub Actions los necesita.
